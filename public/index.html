@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>The Etymology of Place Names</title>
+		<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="assets/reset.css" rel="stylesheet" />
+		<link href="assets/main.css" rel="stylesheet" />
+		<link href="https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css" rel="stylesheet" />
+		<script src="https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js"></script>
+	</head>
+	<body>
+		<div id="map"></div>
+		<div id="features">
+			<h2><span id="js-name">Hover over a placename to find out more</span></h2>
+			<div id="info">
+				<div id="left">
+					<h6><i>Local Name:</i></h6>
+					<span>Type:</span>
+					<span>Class:</span>
+				</div>
+				<div id="right">
+					<h6>
+						<i><span id="js-local"></span></i>
+					</h6>
+					<span id="js-type"></span>
+					<span id="js-class"></span>
+				</div>
+			</div>
+		</div>
+		<script src="assets/script.js"></script>
+	</body>
+</html>
